@@ -18,7 +18,7 @@ def call()
           }
           stage('Deliver') {
               steps {
-                  echo "in deliver stage"
+                  echo "in delivery stage"
               }
           }
       }
