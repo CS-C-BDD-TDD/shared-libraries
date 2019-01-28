@@ -8,17 +8,17 @@ def call()
       stages {
           stage('Build') {
               steps {
-                  echo "in build stage"
+                  echo "in java build stage"
               }
           }
           stage('Test') {
               steps {
-                  echo "in test stage"
+                  echo "in java test stage"
               }
           }
           stage('Deliver') {
               steps {
-                  echo "in delivery stage"
+                  echo "in java delivery stage"
               }
           }
       }
